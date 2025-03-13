@@ -1,0 +1,26 @@
+# 训练参数
+batch_size: 16
+epochs: 100
+lr: 0.0001
+scale_factor: 4
+val_split: 0.2  # 新增验证集比例
+
+# 数据集路径
+train_face_dir: "D:/temp/yolov8-face_focus/yolov8-face/data_process/final_total_data/crop"
+train_tof_dir: "D:/temp/yolov8-face_focus/yolov8-face/data_process/final_total_data/crop_tof"
+train_face_hr_dir: "D:/temp/yolov8-face_focus/yolov8-face/data_process/final_total_data/rgb"
+train_tof_hr_dir: "D:/temp/yolov8-face_focus/yolov8-face/data_process/final_total_data/tof"
+train_gt_dir: "D:/temp/yolov8-face_focus/yolov8-face/data_process/final_total_data/0304.txt"
+
+
+
+val_face_dir: "D:/temp/yolov8-face_focus/yolov8-face/data_process/val/crop"
+val_tof_dir: "D:/temp/yolov8-face_focus/yolov8-face/data_process/val/crop_tof"
+val_face_hr_dir: "D:/temp/yolov8-face_focus/yolov8-face/data_process/val/rgb"
+val_tof_hr_dir: "D:/temp/yolov8-face_focus/yolov8-face/data_process/val/tof"
+val_gt_dir: "D:/temp/yolov8-face_focus/yolov8-face/data_process/val/val.txt"
+
+
+
+result_dir: "results/"
+save_dir: "./train_res/checkpoints/"
